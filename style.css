@@ -1,0 +1,93 @@
+#left{
+	color: gray;
+/*float: left;
+width: 30%;
+padding: 10px;*/
+}
+#right{
+	color: gray;
+/*display: inline-block;
+width: 30%;
+padding-left: 10px;*/
+}
+.text{
+font-family: arial;
+font-color: gray;
+}
+.links {
+font-size: 30px;
+}
+
+#anvil {
+display: none;
+}
+.text {
+font-family: arial;
+color: gray;
+}
+.bullets{
+list-style-type: none;
+}
+.links {
+text-decoration: none;
+font-size: 30px;
+}
+
+@media all and (min-width: 480px) {
+	ul {
+		margin-left: 20%;
+	}
+
+	li {
+		display: inline-block;
+	}
+	a {
+		text-decoration: none;
+		color: gray
+	}
+/*header {
+padding: 1em;
+color: white;
+background-color: white;
+float: left;	
+text-align: center;
+}*/
+
+
+
+/*body{
+width: 800px;
+height: 3000px;
+margin: 0 auto;
+font-size: 20px;
+
+padding-left: 10px;
+padding-right: 20px;
+}*/
+	/*#anvil {
+	margin-left: 20%;
+	margin-right: 20%;
+	display: block;
+	size: 100%;
+	margin-top: 0px;
+	}*/
+
+	#anvil {
+	margin-left: 20%;
+	margin-right: 20%;
+	display: block;
+	size: 100%;
+	margin-top: 0px;
+	}
+
+}
+
+	<div id="right">
+		<h1 class="text">anvils are not working</h1>
+		<p class="text">
+			ACME is the world leader in defective and wonky products as commonly seen 
+			in the antics of the classic character "Wiley Coyote" from Warner Bros' 
+			Looney Tunes. orem ipsum dolor sit amet, eius commodo quaeque est te. Soleat ullamcorper sea at. Eu nec quot saperet laboramus. No usu prima lobortis. An qui facer facilis appetere. Temporibus adversarium mei et, accusamus complectitur an sit, eam meis soluta nostrum ad.
+			<br><br>Cum at quot facilisi patrioque, ad eleifend democritum mea. Ius eu etiam munere conceptam, ea simul commodo ponderum usu. Vero doming sea no, id summo debet dignissim cum, et eros adhuc iuvaret nec. Et usu vitae dicunt sensibus.orem ipsum dolor sit amet, eius commodo quaeque est te. Soleat ullamcorper sea at. Eu nec quot saperet laboramus. No usu prima lobortis. An qui facer facilis appetere. Temporibus adversarium mei et, accusamus complectitur an sit, eam meis soluta nostrum ad.Cum at quot facilisi patrioque, ad eleifend democritum mea. Ius eu etiam munere conceptam, ea simul commodo ponderum usu. Vero doming sea no, id summo debet dignissim cum, et eros adhuc iuvaret nec. Et usu vitae dicunt sensibus.
+		</p>
+	</div>
