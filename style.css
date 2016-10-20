@@ -1,3 +1,10 @@
+body {
+	font-family: arial;
+}
+
 nav {
 	color: red;
+}
+h1 {
+	color: gray;
 }
